@@ -64,6 +64,6 @@ Check server status
 
 ```shell
 curl -X 'GET' http://localhost:8082/api/v1/status -H 'accept:application/json'
-{"Code":"200","Id":"mock-62a1dee8-1acf-429d-91c0-eefa95b62371","Data":{"LdapStatus":"up","ProcessId":1234},"Message":"Success"}
+{"Code":"200","Id":"mock-62a1dee8-1acf-429d-91c0-eefa95b62371","Data":{"ServerStatus":"up","ProcessId":1234},"Message":"Success"}
 ```
 
