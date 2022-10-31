@@ -46,22 +46,21 @@ curl -X 'GET' http://localhost:8080/v1/status -H 'accept:application/json'
 
 ## Curl
 
-
-Query if user is part of the group
+Query user
 
 ```shell
 curl -X 'GET' http://localhost:8082/api/v1/usercheck/test -H 'accept:application/json'
 {"Code":"200","Id":"mock-62a1dee8-1acf-429d-91c0-eefa95b62371","Data":"false","Message":"Success"}
 ```
 
-Count users in aad group
+Count users
 
 ```shell
 curl -X 'GET' http://localhost:8082/api/v1/usercount -H 'accept:application/json'
 {"Code":"200","Id":"mock-62a1dee8-1acf-429d-91c0-eefa95b62371","Data":999999,"Message":"Success"}%
 ```
 
-Check ldap status
+Check server status
 
 ```shell
 curl -X 'GET' http://localhost:8082/api/v1/status -H 'accept:application/json'
